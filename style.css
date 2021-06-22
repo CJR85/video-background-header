@@ -12,3 +12,9 @@
   background: #080008;
   position: relative;
 }
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
