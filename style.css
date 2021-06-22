@@ -117,4 +117,14 @@ nav {
   height: 80px;
   background: rgb(5, 95, 32);
   margin: 0px 10px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.category i {
+  width: 25px;
+  margin-bottom: 5px;
 }
