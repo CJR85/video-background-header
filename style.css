@@ -104,3 +104,17 @@ nav {
   border-radius: 6px;
   cursor: pointer;
 }
+
+.category-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.category {
+  width: 80px;
+  height: 80px;
+  background: rgb(5, 95, 32);
+  margin: 0px 10px;
+}
