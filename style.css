@@ -62,3 +62,45 @@ nav {
   border-radius: 3px;
   cursor: pointer;
 }
+
+.content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 90%;
+  max-width: 900px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  padding-top: 50px;
+}
+
+.content h1 {
+  font-size: 65px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.content form {
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+}
+
+.content form input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 0px 20px;
+  font-size: 18px;
+}
+
+.content form button {
+  background: #088f30;
+  color: #fff;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
